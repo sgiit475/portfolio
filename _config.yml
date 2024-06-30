@@ -17,10 +17,7 @@ theme: jekyll-theme-minimal
 #show_downloads: true
 
 # Social links
-social_links:
-  - name: Google Scholar
-    url: "https://scholar.google.com/citations?user=UI6S9c4AAAAJ&hl=en"
-    icon: "ai ai-google-scholar"
+
 # Markdown settings
 markdown: kramdown
 highlighter: rouge
