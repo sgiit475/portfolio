@@ -1,5 +1,59 @@
-title: Shivam Gupta
-#logo: /assets/img/headshot_circle.png
-#description: text below image
-#show_downloads: true
+#title: Shivam Gupta
+##logo: /assets/img/headshot_circle.png
+##description: text below image
+##show_downloads: true
+#theme: jekyll-theme-minimal
+
+title: "Dr. Shivam Gupta"
+description: "Plasma Scientist | Fusion Plasma | Tokamak Devices | Atomic Physics"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourusername.github.io" # the base hostname & protocol for your site
+author: 
+  name: "Dr. Shivam Gupta"
+  email: "shivam.gupta@example.com"
+
+# Theme settings
 theme: jekyll-theme-minimal
+show_downloads: true
+
+# Social links
+social_links:
+  - name: ResearchGate
+    url: "https://www.researchgate.net/profile/YourProfile"
+    icon: "fab fa-researchgate"
+  - name: Google Scholar
+    url: "https://scholar.google.com/citations?user=YourUserID"
+    icon: "ai ai-google-scholar"
+  - name: LinkedIn
+    url: "https://www.linkedin.com/in/YourProfile"
+    icon: "fab fa-linkedin"
+  - name: Clarivate
+    url: "https://publons.com/researcher/YourProfile"
+    icon: "ai ai-clarivate"
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - .github
+  - .git
+
+# Pagination settings
+paginate: 5
+paginate_path: "/page:num/"
+
+# Google Analytics (optional)
+google_analytics: UA-XXXXXXXX-X
