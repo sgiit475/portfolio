@@ -6,15 +6,15 @@
 
 title: "Dr. Shivam Gupta"
 description: "Plasma Scientist | Fusion Plasma | Tokamak Devices | Atomic Physics"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourusername.github.io" # the base hostname & protocol for your site
-author: 
-  name: "Dr. Shivam Gupta"
-  email: "shivam.gupta@example.com"
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "https://yourusername.github.io" # the base hostname & protocol for your site
+#author: 
+#  name: "Dr. Shivam Gupta"
+#  email: "shivam.gupta@example.com"
 
 # Theme settings
 theme: jekyll-theme-minimal
-show_downloads: true
+#show_downloads: true
 
 # Social links
 social_links:
